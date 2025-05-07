@@ -1,0 +1,129 @@
+/* cash withdraw css */
+body {
+  font-family: 'Roboto';
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.withdraw-container {
+  width: 80%;
+  max-width: 350px;
+  padding: 24px 18px 8px;
+  border-radius: 16px;
+  background-color: #150b3e;
+}
+
+.user-details-container {
+  display: flex;
+}
+
+.starting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  background-color: #c7d2fe;
+}
+
+.initial {
+  font-size: 14px;
+  color: #7c3aed;
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.your-balance {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
+  color: #585076;
+}
+
+.balance {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  color: #d4d2db;
+}
+
+.currency {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.withdraw {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 16px;
+  color: #d4d2db;
+}
+
+.choose-sum {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #585076;
+}
+
+.denominations-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .withdraw-container {
+    width: 50%;
+    max-width: 422px;
+    padding: 48px 36px 16px;
+  }
+
+  .starting-container {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+  }
+
+  .name {
+    font-size: 20px;
+    margin-left: 16px;
+  }
+
+  .your-balance {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+
+  .balance {
+    font-size: 32px;
+  }
+
+  .withdraw {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+
+  .choose-sum {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+}

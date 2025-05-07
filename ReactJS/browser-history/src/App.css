@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .browser-header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: #3367d6;
+  }
+
+  .website-logo {
+    height: 30px;
+  }
+
+  .search-container {
+    display: flex;
+  }
+
+  .search-icon {
+    background-color: #2850a7;
+    padding: 4px 12px;
+  }
+
+  .search-input {
+    color: #ececec;
+    font-size: 14px;
+    background-color: #2850a7;
+    width: 210px;
+    padding: 8px;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+  }
+
+  .history-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .empty-view-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .empty-view-text {
+    color: #475569;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+  }
+
+  margin: 0;
+  font-family: -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  'Roboto',
+  'Oxygen',
+  'Ubuntu',
+  'Cantarell',
+  'Fira Sans',
+  'Droid Sans',
+  'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.browser-header-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: #3367d6;
+}
+
+.website-logo {
+  height: 30px;
+}
+
+.search-container {
+  display: flex;
+}
+
+.search-icon {
+  background-color: #2850a7;
+  padding: 4px 12px;
+}
+
+.search-input {
+  color: #ececec;
+  font-size: 14px;
+  background-color: #2850a7;
+  width: 210px;
+  padding: 8px;
+  margin-left: 8px;
+  border: none;
+  outline: none;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.empty-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-view-text {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
